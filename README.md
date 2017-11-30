@@ -1,4 +1,4 @@
 github.com
 ==========
 
-Github pages repo
+The action is here: http://jeremiah.github.io
