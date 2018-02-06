@@ -14,6 +14,7 @@ Some quick notes on this years [FOSDEM](https://fosdem.org/2018)
     for viewing:
     <https://fosdem.org/2018/news/2018-02-04-first-videos-online/>
 
+### Colophon
 GH Pages theme found here: <a
 href="https://pages-themes.github.io/hacker/">https://pages-themes.github.io/hacker/</a>
 
