@@ -13,7 +13,12 @@ Some quick notes on this years [FOSDEM](https://fosdem.org/2018)
     videos already published and there are at least 54 videos ready
     for viewing:
     <https://fosdem.org/2018/news/2018-02-04-first-videos-online/>
-
+    Perhaps more importantly, they now have a stream of the event that
+    is available on YouTube;
+    https://www.youtube.com/channel/UCYOPCKYceoPwLI-A7tck3wg This
+    turns FOSDEM into an entirely different type of event, making the
+    person to person contact more valuable.
+	
 ### Colophon
 GH Pages theme found here: <a
 href="https://pages-themes.github.io/hacker/">https://pages-themes.github.io/hacker/</a>
