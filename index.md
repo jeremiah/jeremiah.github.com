@@ -19,9 +19,10 @@ Some quick notes on this years [FOSDEM](https://fosdem.org/2018)
     turns FOSDEM into an entirely different type of event, making the
     person to person contact more valuable.
 
-<h4>Videos of note</h4>
-<h5>Component Sourcing for Design and Manufacturing in Shenzhen</h5>
-* https://www.youtube.com/watch?v=XwUL6Afo6QQ
+<h3>Videos relevant to work in GENIVI</h3>
+
+<h3>Videos of note</h3>
+[Component Sourcing for Design and Manufacturing in Shenzhen](https://www.youtube.com/watch?v=XwUL6Afo6QQ)
 * Short video with details on how to get trustworthy suppliers of PCB components.
 
 ### Colophon
