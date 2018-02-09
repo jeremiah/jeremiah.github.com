@@ -20,6 +20,13 @@ Some quick notes on this years [FOSDEM](https://fosdem.org/2018)
     person to person contact more valuable.
 
 <h3>Videos relevant to work in GENIVI</h3>
+[War Stories from the Automotive FLOSS Front](https://fosdem.org/2018/schedule/event/automotive_floss/)
+* Electrobit comes to FOSDEM. This talk by Susanne
+  Oberhauser-Hirschoff and Stefan Potyra was a bit of a dark horse. It
+  ended up in the lightning talks instead of the embedded track but I
+  think it is important because it seems to echo the experience of
+  many companies as they experience open source and automotive worlds
+  collide.
 
 <h3>Videos of note</h3>
 [Component Sourcing for Design and Manufacturing in Shenzhen](https://www.youtube.com/watch?v=XwUL6Afo6QQ)
