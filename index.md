@@ -37,6 +37,9 @@ host for the activities."
   many companies as they experience open source and automotive worlds
   collide.
 
+[Open-Source Trusted Computing for the IoT](https://fosdem.org/2018/schedule/event/sancus/)
+* A researcher from imec-DistriNet, KU Leuven (BE) talks about Trusted computing, particularly for automotive.
+
 <h3>Videos of note</h3>
 [Component Sourcing for Design and Manufacturing in Shenzhen](https://www.youtube.com/watch?v=XwUL6Afo6QQ)
 * Short video with details on how to get trustworthy suppliers of PCB components.
