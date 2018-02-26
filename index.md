@@ -21,13 +21,13 @@ Some quick notes on this years [FOSDEM](https://fosdem.org/2018)
  4. An alternate take on FOSDEM can be found here: http://n-gate.com/fosdem/2018/01/28/0/
 
 <h3>Videos relevant to work in GENIVI</h3>
-* [OpenADx – xcelerate your Automated Driving development](https://fosdem.org/2018/schedule/event/automated_driving/)
-"Bosch Automated Driving division, together with Microsoft, is
-currently building up an ecosystem of companies within the industry
-including OEMs, tier 1 suppliers, tool vendors, research organisations
-but also partners from other industries like the IT industry. The
-intiative called OpenADx is supported by the Eclipse Foundation as a
-host for the activities."
+[OpenADx – xcelerate your Automated Driving development](https://fosdem.org/2018/schedule/event/automated_driving/)
+* "Bosch Automated Driving division, together with Microsoft, is
+  currently building up an ecosystem of companies within the industry
+  including OEMs, tier 1 suppliers, tool vendors, research organisations
+  but also partners from other industries like the IT industry. The
+  intiative called OpenADx is supported by the Eclipse Foundation as a
+  host for the activities."
 
 [War Stories from the Automotive FLOSS Front](https://fosdem.org/2018/schedule/event/automotive_floss/)
 * Electrobit comes to FOSDEM. This talk by Susanne
