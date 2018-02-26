@@ -5,7 +5,7 @@ permalink: /FOSDEM-2018
 ---
 
 <h2>Reflections from FOSDEM 2018</h2>
-Some quick notes on this years [FOSDEM](https://fosdem.org/2018)
+Some quick notes on this year's [FOSDEM](https://fosdem.org/2018)
 
  1. It is as crowded as ever, cramped hallways, long lines for food and
     transport, no seats in the classrooms.
