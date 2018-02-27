@@ -17,19 +17,16 @@ title: Foo bar baz
 description: Words, words, words.
 repo: <a href="https://github.com/jeremiah/jeremiah.github.com">Source</a> of this website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jeremiah.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: miahfost
 github_username: jeremiah
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hacker
-gems:
-  - jekyll-feed
+theme: hacker
 exclude:
   - Gemfile
   - Gemfile.lock
-  - vendor/
   - README.md
 
 

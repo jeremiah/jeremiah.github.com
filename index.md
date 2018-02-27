@@ -2,6 +2,12 @@
 layout: home
 ---
 
+<div class="home">
+  
+  {{ content }}
+
+</div>
+
 ### Colophon
 GH Pages theme found here: <a
 href="https://pages-themes.github.io/hacker/">https://pages-themes.github.io/hacker/</a>
