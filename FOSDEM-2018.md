@@ -4,7 +4,7 @@ title: FOSDEM 2018
 permalink: /FOSDEM-2018
 ---
 
-<h2>Reflections from FOSDEM 2018</h2>
+## Reflections from FOSDEM 2018
 Some quick notes on this year's [FOSDEM](https://fosdem.org/2018)
 
  1. It is as crowded as ever, cramped hallways, long lines for food and
@@ -26,7 +26,7 @@ Some quick notes on this year's [FOSDEM](https://fosdem.org/2018)
     person to person contact more valuable.
  4. An alternate take on FOSDEM can be found here: http://n-gate.com/fosdem/2018/01/28/0/
 
-<h3>Videos relevant to work in GENIVI</h3>
+### Videos relevant to work in GENIVI<
 [OpenADx – xcelerate your Automated Driving development](https://fosdem.org/2018/schedule/event/automated_driving/)
 * "Bosch Automated Driving division, together with Microsoft, is
   currently building up an ecosystem of companies within the industry
@@ -46,7 +46,7 @@ Some quick notes on this year's [FOSDEM](https://fosdem.org/2018)
 [Open-Source Trusted Computing for the IoT](https://fosdem.org/2018/schedule/event/sancus/)
 * A researcher from imec-DistriNet, KU Leuven (BE) talks about Trusted computing, particularly for automotive.
 
-<h3>Videos of note</h3>
+### Videos of note
 [Component Sourcing for Design and Manufacturing in Shenzhen](https://www.youtube.com/watch?v=XwUL6Afo6QQ)
 * Short video with details on how to get trustworthy suppliers of PCB components.
 
