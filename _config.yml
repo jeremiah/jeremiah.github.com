@@ -13,7 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Foo bar baz
+
+title: Attempted blogging
 description: Words, words, words.
 repo: <a href="https://github.com/jeremiah/jeremiah.github.com">Source</a> of this website
 baseurl: "" # the subpath of your site, e.g. /blog
