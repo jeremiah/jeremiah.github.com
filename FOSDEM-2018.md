@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: FOSDEM 2018
 permalink: /FOSDEM-2018
 ---
@@ -26,7 +26,7 @@ Some quick notes on this year's [FOSDEM](https://fosdem.org/2018)
     person to person contact more valuable.
  4. An alternate take on FOSDEM can be found here: http://n-gate.com/fosdem/2018/01/28/0/
 
-### Videos relevant to work in GENIVI<
+### Videos relevant to work in GENIVI
 [OpenADx – xcelerate your Automated Driving development](https://fosdem.org/2018/schedule/event/automated_driving/)
 * "Bosch Automated Driving division, together with Microsoft, is
   currently building up an ecosystem of companies within the industry
