@@ -53,7 +53,3 @@ Some quick notes on this year's [FOSDEM](https://fosdem.org/2018)
 [Igniting the Open Hardware Ecosystem with RISC-V](https://video.fosdem.org/2018/K.1.105/riscv.mp4)
 * New ISA (Instruction Set Architecture) maintained by a non-profit Foundation.
 
-### Colophon
-GH Pages theme found here: <a
-href="https://pages-themes.github.io/hacker/">https://pages-themes.github.io/hacker/</a>
-
