@@ -44,6 +44,13 @@ Some quick notes on this year's [FOSDEM](https://fosdem.org/2018)
 [Open-Source Trusted Computing for the IoT](https://fosdem.org/2018/schedule/event/sancus/)
 * A researcher from imec-DistriNet, KU Leuven (BE) talks about Trusted computing, particularly for automotive.
 
+[Piece of Cake - testing remote embedded devices made easy with MuxPi](https://fosdem.org/2018/schedule/event/remote_embedded_testing/)
+* "Paweł Wieczorek presented a fresh open hardware approach at
+  providing remote access (including device flashing, debugging and
+  power management) for embedded devices." They've created an open
+  hardware board that allows one to remotely reboot and even flash
+  hardware - quite useful in distributed teams. 
+
 ### Videos of note
 [Component Sourcing for Design and Manufacturing in Shenzhen](https://www.youtube.com/watch?v=XwUL6Afo6QQ)
 * Short video with details on how to get trustworthy suppliers of PCB components.
