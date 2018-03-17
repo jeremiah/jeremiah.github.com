@@ -2,6 +2,11 @@
 layout: default
 ---
 
+
+# Installing Fossology
+Which means installing postgres. More to come.
+
+
 ## Reflections from FOSDEM 2018
 Some quick notes on this year's [FOSDEM](https://fosdem.org/2018)
 
