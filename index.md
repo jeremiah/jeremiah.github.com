@@ -9,6 +9,9 @@ some great people. I'm embarrassed to say that this is the first time
 I've been to LP and it has been going on for ten years. It was great
 to get to go inside the Frank Gehry designed Stata Center at MIT.
 
+There is something really wrong with my presentations. I think I try
+too hard to be entertaining.
+
 ## Installing Fossology
 Which means installing postgres. More to come.
 
