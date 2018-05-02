@@ -2,8 +2,14 @@
 layout: default
 ---
 
+## Recent talks
+I recently [spoke at LibrePlanet](https://media.libreplanet.org/u/libreplanet/m/freedom-embedded-vehicles/).
+LibrePlanet is a great conference, I saw a lot of cool talks and met
+some great people. I'm embarrassed to say that this is the first time
+I've been to LP and it has been going on for ten years. It was great
+to get to go inside the Frank Gehry designed Stata Center at MIT.
 
-# Installing Fossology
+## Installing Fossology
 Which means installing postgres. More to come.
 
 
