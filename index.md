@@ -10,7 +10,13 @@ I've been to LP and it has been going on for ten years. It was great
 to get to go inside the Frank Gehry designed Stata Center at MIT.
 
 There is something really wrong with my presentations. I think I try
-too hard to be entertaining.
+too hard to be entertaining, I ramble and speak too quickly.
+
+I also spoke at the Software Freedom Law Center on how [car companies
+are becoming software
+companies](https://downloads.softwarefreedom.org/2018/automotive/1d-foster.webm). There
+were a number of other's who spoke, like Mark Shuttleworth and Leilani
+Gilpin who's talk was excellent.
 
 ## Installing Fossology
 Which means installing postgres. More to come.
