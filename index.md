@@ -19,7 +19,22 @@ were a number of other's who spoke, like Mark Shuttleworth and Leilani
 Gilpin who's talk was excellent.
 
 ## Installing Fossology
-Which means installing postgres. More to come.
+Fossology is an open source tool for checking source code and
+licensing of software. It's actually free software, or at least part
+of it is since at least some of it, if not all of it, is [licensed
+under the GPLv2.](https://github.com/fossology/fossology/blob/master/COPYING)
+
+It has some runtime requirements, as of this writing they are;
+- PHP versions 5.5.9 to 5.6.x (supported versions)
+- Postgresql as database server
+- Apache httpd 2.4 as web server.
+
+"These and more dependencies are installed by `utils/fo-installdeps`."
+Well, that's convenient, but it would be more convenient if the [debs
+of Fossology](https://mirrors.kernel.org/fossology/releases/3.0.0/)
+were kept up to date, but you can't have everything.
+
+I opted to use the script to see how that goes. 
 
 
 ## Reflections from FOSDEM 2018
