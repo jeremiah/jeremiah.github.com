@@ -34,7 +34,55 @@ Well, that's convenient, but it would be more convenient if the [debs
 of Fossology](https://mirrors.kernel.org/fossology/releases/3.0.0/)
 were kept up to date, but you can't have everything.
 
-I opted to use the script to see how that goes. 
+I opted to use the script to see how that goes. The script is written in 
+bash thankfully and at the end of copious (and I do mean copious) packages being installed, it said:
+```
+run ./../src/demomod/mod_deps to install dependencies
+run ./../src/buckets/mod_deps to install dependencies
+``` 
+
+Unfortunately, it is not entirely clear whether these are optional or
+not. Look at the first one, src/demomod, it looks like it is a
+demonstration pacakge for installing a Fossology module. I decided to
+skip running those two commands. 
+
+Instead, I jumped ahead and did the familiar;
+
+```
+make
+sudo make install
+```
+
+Then I switched to the /usr/local/lib/fossology/ dir and ran;
+```
+sudo ./fo-postinstall
+```
+
+Oh. That goes ahead and creates a database for me, aomong other
+things. I took a look at /usr/local/lib/fossology/fossologyinit.sql to
+see what was happening.
+
+This flew by, will take a look at it later;
+"NOTE: Running the PostgreSQL vacuum and analyze command can result in a large database performance improvement.  We suggest that you either configure postgres to run its autovacuum and autoanalyze daemons, or maintagent -D in a cron job, or run Admin > Maintenance on a regular basis.  Admin > Dashboard will show you the last time vacuum and analyze have been run."
+
+Then the next steps are;
+
+6. Login to FOSSology with the default fossy/fossy user and password and:
+
+   1.  create yourself a user with administrative privileges
+   2.  change the default password for user fossy
+
+This didn't work for me. Instead I changed to the postgres user and just did;
+```
+$ psql
+```
+Which put me in the postgres database. I found this quite useful: 
+https://www.postgresql.org/docs/9.6/static/auth-pg-hba-conf.html
+
+
+#+BEGIN_SRC perl
+	say "hello world";
+#+END_SRC
 
 
 ## Reflections from FOSDEM 2018
