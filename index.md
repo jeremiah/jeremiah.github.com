@@ -2,6 +2,13 @@
 layout: default
 ---
 
+## Fun with the Intel® NUC Kit NUC8i7HNK
+Oh boy. A core i7 8th generation Hades Canyon NUC. The skull . . . it glows!
+![The skull . . . it glows!]({{ "/assets/skull.png" }})
+
+I've purchased Intel's new 800P Optane M.2 memory as an SSD and 32
+gigs of DDR4 memory. Hopefully this little beastie will fly.
+
 ## Recent talks
 I recently [spoke at LibrePlanet](https://media.libreplanet.org/u/libreplanet/m/freedom-embedded-vehicles/).
 LibrePlanet is a great conference, I saw a lot of cool talks and met
