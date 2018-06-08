@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Reflections from FOSDEM 2018
-date: 2018-01-01 16:16:01 -0400
+date: 2018-03-01 16:16:01 -0400
 categories: fosdem
+author: Jeremiah
 ---
 
-## Reflections from FOSDEM 2018
 Some quick notes on this year's [FOSDEM](https://fosdem.org/2018)
 
  1. It is as crowded as ever, cramped hallways, long lines for food and
