@@ -2,6 +2,9 @@
 layout: default
 ---
 
+## Travis CI for Debian packaging
+One more rabbit hole to go down; http://travis.debian.net/
+
 ## Fun with the Intel® NUC Kit NUC8i7HNK
 Oh boy. A core i7 8th generation Hades Canyon NUC. The skull . . . it glows!
 ![The skull . . . it glows!]({{ "/assets/skull.png" }})
