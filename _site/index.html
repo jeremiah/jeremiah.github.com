@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=1618299be301a7eeeb7856c1a843acb531134d50">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+	<h1>Jeremiah's Yak Barbershop</h1>
+	<h2>Words, words, words.</h2>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+	<p>## 
+<img src="/assets/librem-mini.png" alt="Beastie feast" /></p>
+
+<p>The new Librem Mini is a lovely machine. Mine is a Coffee Lake-U (Core i7) with 64 Gigs.
+Naturally it runs PureOS Byzantium and a 5.7 kernel.</p>
+
+<h2 id="travis-ci-for-debian-packaging">Travis CI for Debian packaging</h2>
+<p>One more rabbit hole to go down; <a href="http://travis.debian.net/">http://travis.debian.net/</a></p>
+
+<h2 id="fun-with-the-intel-nuc-kit-nuc8i7hnk">Fun with the Intel® NUC Kit NUC8i7HNK</h2>
+<p>Oh boy. A core i7 8th generation Hades Canyon NUC. The skull . . . it glows!
+<img src="/assets/skull.png" alt="The skull . . . it glows!" /></p>
+
+<p>I’ve purchased Intel’s new 800P Optane M.2 memory as an SSD and 32
+gigs of DDR4 memory. Hopefully this little beastie will fly.</p>
+
+<h2 id="recent-talks">Recent talks</h2>
+<p>I recently <a href="https://media.libreplanet.org/u/libreplanet/m/freedom-embedded-vehicles/">spoke at LibrePlanet</a>.
+LibrePlanet is a great conference, I saw a lot of cool talks and met
+some great people. I’m embarrassed to say that this is the first time
+I’ve been to LP and it has been going on for ten years. It was great
+to get to go inside the Frank Gehry designed Stata Center at MIT.</p>
+
+<p>There is something really wrong with my presentations. I think I try
+too hard to be entertaining, I ramble and speak too quickly.</p>
+
+<p>I also spoke at the Software Freedom Law Center on how <a href="https://downloads.softwarefreedom.org/2018/automotive/1d-foster.webm">car companies
+are becoming software
+companies</a>. There
+were a number of other’s who spoke, like Mark Shuttleworth and Leilani
+Gilpin who’s talk was excellent.</p>
+
+<h2 id="installing-fossology">Installing Fossology</h2>
+<p>Fossology is an open source tool for checking source code and
+licensing of software. It’s actually free software, or at least part
+of it is since at least some of it, if not all of it, is <a href="https://github.com/fossology/fossology/blob/master/COPYING">licensed
+under the GPLv2.</a></p>
+
+<p>It has some runtime requirements, as of this writing they are;</p>
+<ul>
+  <li>PHP versions 5.5.9 to 5.6.x (supported versions)</li>
+  <li>Postgresql as database server</li>
+  <li>Apache httpd 2.4 as web server.</li>
+</ul>
+
+<p>“These and more dependencies are installed by <code class="language-plaintext highlighter-rouge">utils/fo-installdeps</code>.”
+Well, that’s convenient, but it would be more convenient if the <a href="https://mirrors.kernel.org/fossology/releases/3.0.0/">debs
+of Fossology</a>
+were kept up to date, but you can’t have everything.</p>
+
+<p>I opted to use the script to see how that goes. The script is written in 
+bash thankfully and at the end of copious (and I do mean copious) packages being installed, it said:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>run ./../src/demomod/mod_deps to install dependencies
+run ./../src/buckets/mod_deps to install dependencies
+</code></pre></div></div>
+
+<p>Unfortunately, it is not entirely clear whether these are optional or
+not. Look at the first one, src/demomod, it looks like it is a
+demonstration pacakge for installing a Fossology module. I decided to
+skip running those two commands.</p>
+
+<p>Instead, I jumped ahead and did the familiar;</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make
+sudo make install
+</code></pre></div></div>
+
+<p>Then I switched to the /usr/local/lib/fossology/ dir and ran;</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo ./fo-postinstall
+</code></pre></div></div>
+
+<p>Oh. That goes ahead and creates a database for me, aomong other
+things. I took a look at /usr/local/lib/fossology/fossologyinit.sql to
+see what was happening.</p>
+
+<p>This flew by, will take a look at it later;
+“NOTE: Running the PostgreSQL vacuum and analyze command can result in a large database performance improvement.  We suggest that you either configure postgres to run its autovacuum and autoanalyze daemons, or maintagent -D in a cron job, or run Admin &gt; Maintenance on a regular basis.  Admin &gt; Dashboard will show you the last time vacuum and analyze have been run.”</p>
+
+<p>Then the next steps are;</p>
+
+<ol>
+  <li>
+    <p>Login to FOSSology with the default fossy/fossy user and password and:</p>
+
+    <ol>
+      <li>create yourself a user with administrative privileges</li>
+      <li>change the default password for user fossy</li>
+    </ol>
+  </li>
+</ol>
+
+<p>This didn’t work for me. Instead I changed to the postgres user and just did;</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ psql
+</code></pre></div></div>
+<p>Which put me in the postgres database. I found this quite useful: 
+https://www.postgresql.org/docs/9.6/static/auth-pg-hba-conf.html</p>
+
+
+      </section>
+    
+    <ul>
+      
+      <li>
+	<a href="/fosdem/2018/03/01/back-from-fosdem.html">Reflections from FOSDEM 2018</a>
+      </li>
+      
+    </ul>
+    </div>
+  </body>
+</html>
