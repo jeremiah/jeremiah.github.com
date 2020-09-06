@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-## 
+
+## Librem Mini Coffee Lake 
 ![Beastie feast]({{ "/assets/librem-mini.png" }})
 
 The new Librem Mini is a lovely machine. Mine is a Coffee Lake-U (Core i7) with 64 Gigs.
