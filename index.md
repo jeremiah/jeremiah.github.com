@@ -1,9 +1,14 @@
 ---
 layout: default
 ---
+## 
+![Beastie feast]({{ "/assets/librem-mini.png" }})
+
+The new Librem Mini is a lovely machine. Mine is a Coffee Lake-U (Core i7) with 64 Gigs.
+Naturally it runs PureOS Byzantium and a 5.7 kernel.
 
 ## Travis CI for Debian packaging
-One more rabbit hole to go down; http://travis.debian.net/
+One more rabbit hole to go down; [http://travis.debian.net/](http://travis.debian.net/)
 
 ## Fun with the Intel® NUC Kit NUC8i7HNK
 Oh boy. A core i7 8th generation Hades Canyon NUC. The skull . . . it glows!
